@@ -61,7 +61,8 @@ string _color, int _year, int _power, int _speed)
 	}
 
 
-	string color_lst[] = { "×¸ðíûé", "Áåëûé", "Êðàñíûé", "Ñèíèé", "Çåë¸íûé", "Æ¸ëòûé", "Ñåðûé" };
+	string color_lst[] = { "Чёрный", "Белый", "Красный", "Синий", "Зелёный", "Жёлтый", "Серый" };	
+	for (size_t i = 0; i < size(color_lst); i++)
 	for (size_t i = 0; i < size(color_lst); i++)
 	{
 		if (_color == color_lst[i])

@@ -54,7 +54,7 @@ string _color, int _year, int _power, int _speed)
 	}
 	else
 	{
-		marka = _marka + "(òàêîé ìàðêè íåòó â ôàéëå)";
+		marka = _marka + " такой марки  нету в файле";
 		model = _model + "(Íó ðàç íåòó ìàðêè, òî òî÷íî íåòó ìîäåëè)";
 
 	}

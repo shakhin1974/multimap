@@ -49,8 +49,7 @@ string _color, int _year, int _power, int _speed)
 		}
 		else
 		{
-			model = _model + "(òàêîé ìîäåëè íåòó â ôàéëå)";
-		}
+			model = _model + " такой модели нету в файле ";		}
 
 	}
 	else
